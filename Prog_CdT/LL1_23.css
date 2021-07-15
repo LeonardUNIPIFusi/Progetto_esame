@@ -1,0 +1,92 @@
+* {box-sizing:border-box}
+/* Hide the images by default */
+body{
+  background-color: #e0c9a6;
+}
+#Info-gen{
+  display: table;
+}
+#main_Tit{
+  text-align: center;
+    padding: 1%;
+    font-size: x-large;
+    margin-left: 15%;
+    border: 2px solid;
+    margin-right: 15%;
+}
+.col_L{
+  float: left;
+  width: 48%;
+  height:800px;
+  display: table-row;
+}
+
+
+.col_R{
+  float: right;
+  width: 48%;
+  height:800px;
+  display: table-row;
+
+}
+.col_L_1{
+  float: left;
+  width: 48%;
+  height:auto;
+  display: table-row;
+
+}
+
+
+.col_R_1{
+  float: right;
+  width: 48%;
+  height:auto;
+  display: table-row;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hide {
+    display: none;
+  }
+  
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  #scan-e-lettere {
+    display: table;
+  }
+  
+  #immagini_lettera{
+    width: 45%;
+    float:left;
+    display: table-row;
+  } 
+#riq_img img{
+    width:100%;
+    padding:2%;
+}
+#immagini_lettera h2{
+    text-align: center;
+}
+
+#lettere {
+  float: right;
+  width: 45%;
+}
