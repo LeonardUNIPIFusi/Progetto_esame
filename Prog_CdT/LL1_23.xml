@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+	<teiHeader>
+		<fileDesc><!--Contenuto descrittivo edizione digitale-->
+			<titleStmt> <!--titolo descrittivo/informativo del corpus-->
+	            <title type="main">Gruppo testuale di due minute composte da Vincenzo Bellini, in Parigi, il 10 Maggio 1835, presenti nel foglio classificato come LL.1.23 del carteggio Belliniano.</title>
+				<title type="sub" n="1" facs="#LL1.23.I_lett_f">Vincenzo Bellini a Giuseppe Denza, in Parigi, 10 Maggio 1835</title>
+				<title type="sub" n="2" facs="#LL1.23.II_lett_f">Vincenzo Bellini a destinatario sconosciuto, in Parigi, 10 Maggio 1835</title>
+				<author ref="#VB">Vincenzo Bellini</author><!--autore e responsabilità-->
+				<respStmt>
+					<resp>Responsabilità di:</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#DS">Daria Spampinato</name>
+					<name ref="#EC">Erica Capizzi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Responsabile della trascrizione:</resp>
+					<name ref="#GS">Graziella Seminara</name>
+				</respStmt>
+	        </titleStmt>
+			<editionStmt> <!--inforamzioni edizione Digitale-->
+				<edition>Edizione Digitale
+					<date when="2021-07">Settembre 2021</date>
+				</edition>
+				<respStmt>
+					<resp>Edizione digitale coordinata da:</resp>
+					<name ref="#LKF">Leonard Karl Fusi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica di:</resp>
+					<name ref="#LKF">Leonard Karl Fusi</name>
+				</respStmt>
+			</editionStmt>
+	        <publicationStmt><!--editore+licenza utilizzata-->
+				<publisher>Fondazione Bellini</publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<listBibl>
+					<bibl source="#Seminara2017" resp="#GS" ana="426"> 
+						<citedRange unit="page" from="501" to="501">501</citedRange>
+					</bibl>	
+					<bibl source="#Seminara2017" resp="#GS" ana="427"> 
+						<citedRange unit="page" from="501" to="501">501</citedRange>
+					</bibl>
+				</listBibl>
+				<msDesc><!-- descrizione del manoscritto fisico -->
+					<msIdentifier><!--collocazione-->
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<!-- riferimento al catalogo delle sigle dei musei in cui è definito I-CATm -->
+						<idno type="inventory">LL1.23</idno><!-- segnatura della singola lettera -->
+						<altIdentifier>	<!--identificatore alternativo, elemento usato per indicare identificativi precedenti a quello del doc trascritto collocazione della lettera al museo -->
+							<idno type="collocation">In esposizione Casa Natale, sala B, vetrina 5, ripiano 1, IV</idno>
+						</altIdentifier>	
+					</msIdentifier>
+					<msContents> <!-- L' elemento msContents viene utilizzato per descrivere il contenuto intellettuale di un manoscritto o di una parte del manoscritto. -->
+						<msItem n="1"><!--(elemento manoscritto) descrive un'opera o un elemento individuale all'interno del contenuto intellettuale di un manoscritto, parte di un manoscritto o altro oggetto.-->
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="compositore">Vincenzo Bellini</persName> a <persName ref="#GD">Giuseppe Denza</persName>, in
+								<placeName ref="#Paris">Parigi</placeName>, 
+								<date when="1835-05-10" cert="high" resp="#GS">10 Maggio 1835</date>.
+							</title>
+							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
+						</msItem>
+						<msItem n="2">
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="compositore">Vincenzo Bellini</persName> a destinatario unknown,
+								 in <placeName ref="#Paris">Parigi</placeName>, 
+								<date when="1835-05-10" cert="high" resp="#GS">10 Maggio 1835</date>.
+							</title>
+							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
+						</msItem>
+					</msContents>
+					<physDesc><!-- descrizione fisica-->
+						<objectDesc><!--descrizione dell'oggetto fisico-->
+							<supportDesc><!--descrizione del supporto fisico-->
+								<support>
+									<material>Carta sottile.</material>
+									<stamp>Non sono presenti tracce di francobolli né di timbri postali.</stamp>
+									<watermark>
+                                     	Non è presente filigrana visibile.
+									</watermark>
+									<!-- descrizione fisica della lettera -->
+									<p>Un foglio, una facciata.	La carta è relativamente sottile e di colore beige, l'inchiostro usato è di colore nero.
+									</p>
+									<p>I bordi del foglio sono frastagliati, per azione dell'invecchiamento.
+									</p>
+									<p>
+										<hi facs="#LL1.23.I-II_hotspot_f_02"/>
+										Nel lato superiore è presente una macchia di umidità, che ha causato un deterioramento della carta.
+									</p>
+
+								</support>
+								<extent><!--dimensioni e descrizione del supporto fisico-->
+									<measure type="folio">1</measure><!--indica in type il tipo di oggetto descritto e la quantità dello stesso-->
+									<dimensions unit="mm">
+										<height>204</height>
+										<width>133</width>
+									</dimensions>
+								</extent>
+								<condition>
+									<!-- descrizione delle condizioni fisiche di conservazione della lettera -->
+									<p>Lettera in discrete condizioni fisiche.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="4"><!--mani coinvolte nella stesura del documento originale-->
+							<handNote>
+							<p><!--paragrafo descrittivo-->
+								Scrittura a mano libera leggibile.
+								Nel fronte del foglio si può notare, nella parte alta a sx, un'annotazione attribuibile al Bellini. 
+								Il fronte del foglio presenta due annotazioni operate probabilmente da una stessa mano, in quanto apposte con una stessa matita di colore blu e con una calligrafia simile.
+								Una si trova nella parte alta in posizione centrale e un'altra nella parte bassa del folio retro.
+								È inoltre presente un'annotazione nella parte alta del fronte del foglio, apposta con una matita di colore rosa e molto sbiadita.
+							</p>
+							</handNote>
+							<handNote scribe="catalogatore_1" medium="penna ad inchiostro nero" xml:id="h1"><!-- indica la seconda mano, appartenente ad un catalogatore -->
+								<p><!--rimando a codifica dell'annotazione-->
+									<hi facs="#LL1.23.I-II_hotspot_f_04"/>Annotazione scritta in diagonale da sx a dx, contenente due righe difficilmente interpretabili e quella che probabilmente è una firma
+								</p>
+							</handNote>
+							<handNote scribe="catalogatore_2" medium="matita blu" xml:id="h2"><!-- indica la terza mano, appartenente ad un catalogatore -->
+								<p>
+									<hi facs="#LL1.23.I-II_hotspot_f_01"/> Annotazione nel fronte del foglio, raffigurante il numero 103.
+									<hi facs="#LL1.23.I-II_hotspot_r_01"/> Annotazione nel retro del foglio, raffigurante il numero 13 fra parentesi tonde.
+								</p>
+							</handNote>
+							<handNote scribe="catalogatore_3" medium="matita rosa" xml:id="h3"><!-- indica un terzo catalogatore-->
+								<p>
+									<hi facs="#LL1.23.I-II_hotspot_f_03"/> 
+									Annotazione, operata da una terza mano, non leggibile .
+								</p>
+							</handNote>
+							<handNote scribe="author" medium="inchiostro nero" xml:id="hA" />
+							
+						</handDesc>
+					</physDesc>
+					<additional><!-- info bibliografiche aggiuntive-->
+						<adminInfo>
+							<note>		<!-- descrizione del significato della segnatura della lettera -->
+								All'interno del carteggio belliniano (LL), la segnatura LL1.23 identifica la ventitresima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		
+		<profileDesc>
+			<textClass> <!-- natura o argomento del testo -->
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">			
+					<term resp="#GS">lettera 					
+					</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">Italiano di inizio Ottocento</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" xml:id="LL1.23.I-II_folio_f">			<!-- FRONTE  -->
+			<graphic url="LL1.23.I-II/0001.jpg" width='1635px' height='2468px'/>
+
+			<zone ulx="381" uly="93" lrx="612" lry="126"  type="rect" rendition="Line" xml:id="LL1.23.I_line_folio_01"/> <!--linea 1-->
+			<zone ulx="203" uly="137" lrx="455" lry="170" type="rect" rendition="Line" xml:id="LL1.23.I_line_folio_02"/> <!--linea 2-->
+			<zone ulx="204" uly="203" lrx="539" lry="237" type="rect" rendition="Line" xml:id="LL1.23.I_line_folio_03"/> <!--linea 3-->
+			<zone ulx="245" uly="52" lrx="363" lry="171" type="rect" rendition="HotSpot" xml:id="LL1.23.I-II_hotspot_f_01"/> <!--103-->
+			<zone ulx="337" uly="3" lrx="376" lry="63" type="rect" rendition="HotSpot" xml:id="LL1.23.I-II_hotspot_f_02"/> <!--zona rovinata-->
+			<zone ulx="219" uly="65" lrx="267" lry="96" type="rect" rendition="HotSpot" xml:id="LL1.23.I-II_hotspot_f_03"/>	<!--annot rosa-->
+			<zone ulx="105" uly="35" lrx="189" lry="235" type="rect" rendition="HotSpot" xml:id="LL1.23.I-II_hotspot_f_04"/> <!--zona firmata-->
+			<zone ulx="15" uly="7" lrx="621" lry="249" type="rect" rendition="Letter" xml:id="LL1.23.I_lett_f"/> <!--lett 23-1-->
+
+			<zone ulx="111" uly="269" lrx="231" lry="314" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_01"/> <!--linea 1-->
+			<zone ulx="114" uly="331" lrx="583" lry="377" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_02"/> <!--linea 2-->
+			<zone ulx="72" uly="373" lrx="621" lry="425" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_03"/> <!--linea 3-->
+			<zone ulx="71" uly="408" lrx="587" lry="456" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_04" /> <!--linea 4-->
+			<zone ulx="71" uly="458" lrx="601" lry="492" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_05" /> <!--linea 5-->
+			<zone ulx="68" uly="502" lrx="576" lry="539" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_06" /> <!--linea 6-->
+			<zone ulx="68" uly="540" lrx="621" lry="587" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_07" /> <!--linea 7-->
+			<zone ulx="67" uly="602" lrx="210" lry="643" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_08"/> <!--linea 8-->
+			<zone ulx="88" uly="651" lrx="614" lry="684" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_09" /> <!--linea 9-->
+			<zone ulx="85" uly="695" lrx="602" lry="720" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_10" /> <!--linea 10-->
+			<zone ulx="80" uly="727" lrx="200" lry="777" type="rect" rendition="Line" xml:id="LL1.23.II_line_folio_11"/> <!--linea 11-->
+			<zone ulx="45" uly="254" lrx="617" lry="756" type="rect" rendition="Letter" xml:id="LL1.23.II_lett_f"/> <!--lett23-2-->
+		</surface>
+			
+		<surface n="2" xml:id="LL1.23.I-II_folio_r">				<!-- RETRO  -->
+			<graphic url="LL1.23.I-II/0002.jpg" width='1635px' height='2468px'/>
+			<zone ulx="189" uly="858" lrx="300" lry="915" type="rect" rendition="HotSpot" xml:id="LL1.23.I-II_hotspot_r_01"/> <!--(13)-->
+		</surface>
+	</facsimile>
+
+
+	<text xml:id="LL1.23.I-II" subtype="manuscript" n="LL1.23.I-II"> 
+		<group>
+		<text xml:id="Front_LL1.23.I-II" >
+		<body xml:lang="it"><!--Codifica elementi non appartenenti alle due minute, non utilizzati nella trasformata-->
+			<div1 xml:id="Annot_front">	
+				<pb n="1" xml:id="LL1.23.I-II_fol_f" facs="#LL1.23.I-II_folio_f"/>
+					
+					<ab type="paratex" subtype="addition" hand="#h1" xml:id="LL1.23.I-II_hs_f_01" 	facs="#LL1.23.I-II_hotspot_f_04">		<!-- seconda mano del bibliotecario xml:id="catalogatore_1">-->
+						<lb xml:id="LL1.23.I_hsp_sign_l_f_01" n="1_4" facs="#LL1.23.I-II_sign_line_f_01"/>
+						<gap reason="illegible" extent="word" unit="1"/>
+						<lb xml:id="LL1.23.I_hsp_sign_l_f_02" n="1_4" facs="#LL1.23.I-II_sign_line_f_02"/>
+						<supplied resp="#LKF" cert="low"><unclear>C</unclear></supplied><gap reason="illegible" extent="chars" unit="1"/><supplied resp="#LKF" cert="medium"><unclear>t</unclear></supplied><gap reason="illegible" extent="chars" unit="1"/> 
+						<gap reason="illegible" extent="word" unit="1"/>
+						<lb xml:id="LL1.23.I_hsp_sign_f_01" n="1_4" facs="#LL1.23.I-II_sign_hotspot_f_04"/>
+						<gap reason="illegible" extent="chars" unit="1"/>
+					</ab>
+				
+					
+				<ab type="paratext" subtype="addition" hand="#h2" xml:id="LL1.23.I-II_hs_f_02" 	facs="#LL1.23.I-II_hotspot_f_01">		<!-- seconda mano del bibliotecario -->
+					<fw type="catalogNum"><num type="cardinal" value="103" rend="underlined"><idno type="oldCat">103</idno></num></fw>
+				</ab>
+				
+				<ab type="paratext" subtype="addition" hand="#h3" xml:id="LL1.23.I-II_hs_f_03" 	facs="#LL1.23.I-II_hotspot_f_03">		<!-- terza mano del bibliotecario -->
+					<fw type="catalogNum"><idno type="oldCat"></idno><gap reason="illegible" extent="a few characters"/></fw>
+				</ab>
+			</div1>
+			<div1 xml:id="Annot_retro">
+				<pb n="2" xml:id="LL1.23_fol_1r_body" facs="#LL1.23_folio_1r"/> 
+				<ab type="paratext" subtype="addition" hand="#2" xml:id="LL1.23.I-II_hs_r_01" 	facs="#LL1.23.I-II_hotspot_r_01">		<!-- seconda mano del bibliotecario -->
+					<fw type="catalogNum"><num type="cardinal"><idno type="oldCat">(13)</idno></num></fw>
+				</ab>
+			</div1>
+		
+		</body>
+		<back>
+			<div type="notes"><!--note Seminara per il foglio LL1.23-->
+				<note xml:id="LL1_23_note1" source="#Seminara2017" resp="#GS" ana="850">
+					<bibl>
+						<citedRange unit="page" from="501" to="501">501</citedRange>
+	     	 		</bibl>
+					<p>
+						Nel margine inferiore della stessa facciata è tracciata una minuta a un destinatario sconosciuto (Lettera 427).
+					</p>
+				</note>
+				<note xml:id="LL1_23_note2" source="#Seminara2017" resp="#GS" ana="851">
+					<bibl>
+					 	<citedRange unit="page" from="501" to="501">501</citedRange>
+	     	 	  	</bibl>
+					<p> 
+						Nel margine superiore della medesima facciata è abbozzato l’incipit di una missiva a Giuseppe Denza (Lettera 426).
+					</p>
+				</note>
+				<note xml:id="LL1_23.II_note3" source="#Seminara2017" resp="#GS" ana="852">
+					<bibl>
+					 	<citedRange unit="page" from="501" to="501">501</citedRange>
+	     	 		</bibl>
+					<p> 
+						In origine ringraziarti.
+					</p>
+				</note>
+				<note xml:id="LL1_23.II_note4" source="#Seminara2017" resp="#GS" ana="853">
+					<bibl>
+					 	<citedRange unit="page" from="501" to="501">501</citedRange>
+	     	 		</bibl>
+					<p> 
+						In origine esprimerti.
+					</p>
+				</note>
+			</div>
+			<div type="bibliography"><!--bibliografia foglio LL1.23-->
+				<listBibl xml:id="LL_1_23_bibliography">
+					<head>Bibliografia della lettera LL.1.23</head>
+					<bibl xml:id="LL_1_23_Cambi">
+						<ref target="#Cambi1943">
+                            <bibl>
+                                <author>Cambi</author>
+                                <date when="1943">1943</date>
+                                <citedRange unit="page" from="548" to="548">548</citedRange>
+                            </bibl>
+						</ref>
+					</bibl>
+                    <bibl xml:id="LL_1_23_Neri">
+                        <ref target="#Neri2005">
+                            <bibl>
+                                <author>Neri</author>
+                                <date when="2005">2005</date>
+                                <citedRange unit="page" from="405" to="405">405</citedRange>
+                            </bibl>
+                        </ref>
+                    </bibl>
+                    <bibl xml:id="LL_1_23_Seminara">
+                        <ref target="#Seminara2017">
+                            <bibl>
+                                <author>Seminara</author>
+                                <date when="2017">2017</date>
+                                <citedRange unit="page" from="501" to="501">501</citedRange>
+                            </bibl>
+                        </ref>
+                    </bibl>
+					<bibl xml:id="LL_1_23_Amore">
+                        <ref target="#Amore1894">
+                            <bibl>
+                                <author>Amore</author>
+                                <date when="1894">1894</date>
+                                <citedRange unit="page" from="358" to="358">358</citedRange>
+                            </bibl>
+                        </ref>
+                    </bibl>
+				</listBibl>
+            </div>
+
+            <!--LISTE-->
+            <div type="lists">
+
+            <!-- ListPerson -->
+				<listPerson>
+					<head>Lista delle persone citate:</head>
+					<!-- Alberico Curioni -->
+                    <person xml:id="AC"> 
+						<persName role="Tenore" ref="#tenore"> 
+							<forename>Alberico</forename>
+							<surname>Curioni</surname>
+						</persName>
+						<sex> M</sex>
+						<birth>
+							<date when="1785">unknown/unknown/1785</date>
+							<placeName ref="#MI">
+								<settlement type="municipality" ref="#MI">Milano</settlement>
+								<settlement type="department" key="MI">Milano</settlement>
+								<country key="IT">Italy</country>
+							</placeName>
+						</birth>
+                        <death>
+							<date when="1856-05-30">unknown/03/1875</date>
+                            <placeName ref="#TOR">
+								<settlement type="municipality" ref="#TOR">Torno</settlement>
+								<settlement type="department" key="CO">Como</settlement>
+								<country key="IT">Italy</country>
+							</placeName>
+						</death>
+					</person> 
+					<!--Giuseppe Denza-->
+					<person xml:id="GD"> 
+						<persName role="cantante lirico"> 
+							<forename>Giuseppe</forename>
+							<surname>Denza</surname>
+						</persName>
+						<sex> M</sex>
+						<birth>
+							<date type="unknown"/>
+							<placeName type="unknown"/>
+						</birth>
+                        <death>
+							<date type="unknown"/>
+                            <placeName type="unknown"/>
+						</death>
+					</person> 
+                    <!-- Vincenzo Bellini -->
+					<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983"> 
+						<persName role="compositore" > 
+							<ref target="http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+							<forename>Vincenzo</forename>
+							<forename>Salvatore</forename>
+							<forename>Carmelo</forename>
+							<forename>Francesco</forename> 
+							<surname>Bellini</surname>
+							<addName type="alias">Il Cigno</addName>
+							<roleName type="onorificenza">Cavaliere della Legione d'onore</roleName> 
+						</persName>
+						<sex> M</sex>
+						<birth>
+							<date when="1801-11-03">3/11/1801</date>
+							<placeName ref="#CT">
+								<settlement type="municipality" ref="#CT">Catania</settlement>
+								<settlement type="department" key="CT">Catania</settlement>
+								<country key="IT">Italy</country>
+							</placeName>
+						</birth>
+                        <death>
+							<date when="1835-09-23">23/09/1835</date>
+							<placeName ref="#Put">
+								<settlement type="municipality" ref="#Put">Puteaux</settlement>
+								<settlement type="department" key="Paris" ref="#Paris">Paris</settlement>
+								<country key="FR">France</country>
+							</placeName>
+						</death>   
+					</person>
+					<!-- Leonard Karl Fusi -->
+                    <person xml:id="LKF"> 
+                        <persName> 
+                            <forename>Leonard Karl</forename>
+                            <surname>Fusi</surname>
+                        </persName>
+                        <sex> M</sex>
+                        <birth>
+                            <date when="1994-12-02">02/12/1994</date>
+                            <placeName>
+                                <settlement type="municipality">Düsseldorf</settlement>
+								<settlement type="department" key="Dü">Düsseldorf</settlement>
+                                <country key="Ger">Germany</country>
+                            </placeName>
+                        </birth>
+                    </person>
+
+                    <!-- Angelo Mario Del Grosso -->
+                    <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
+                        <persName> 
+                            <forename>Angelo</forename>
+                            <forename>Mario</forename>
+                            <surname>Del Grosso</surname>
+                        </persName>
+                        <sex> M</sex>
+                        <birth>
+                            <date when="1980-02-19">19/02/1980</date>
+                            <placeName>
+                                <settlement type="municipality">Benevento</settlement>
+                                <settlement type="department" key="BN">Benevento</settlement>
+                                <country key="IT">Italy</country>
+                            </placeName>
+
+                        </birth>
+                    </person>
+
+                    <!-- Daria Spampinato -->
+                    <person xml:id="DS"> 
+                        <persName> 
+                            <forename>Daria</forename>
+                            <surname>Spampinato</surname>
+                        </persName>
+                        <sex> F</sex>
+                        <birth>
+                            <date type="unknown"/>
+                            <placeName type="unknown"/>
+                        </birth>
+                    </person>
+					 <!-- Graziella Seminara -->
+                    <person xml:id="GS" sameAs="https://viaf.org/viaf/37139452/"> 
+                        <persName> 
+                            <forename>Graziella</forename>
+                            <surname>Seminara</surname>
+                        </persName>
+                        <sex> F</sex>
+                        <birth>
+                            <date when="1957">unknown/unknown/1957</date>
+                            <placeName>
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="department" key="CT">Catania</settlement>
+                                <country key="IT">Italy</country>
+                            </placeName>                        
+                        </birth>
+                    </person>
+
+					 <!-- Luisa Cambi -->
+                    <person xml:id="LC" sameAs="https://viaf.org/viaf/2582281/"> 
+                        <persName> 
+                            <forename>Luisa</forename>
+                            <surname>Cambi</surname>
+                        </persName>
+                        <sex> F</sex>
+                        <birth>
+                            <date type="unknown"/>
+                            <placeName type="unknown"/>      
+                        </birth>
+                    </person>
+
+                    <!-- Carmelo Neri -->
+                    <person xml:id="CN" sameAs="https://viaf.org/viaf/76540365/"> 
+                        <persName> 
+                            <forename>Carmelo</forename>
+                            <surname>Neri</surname>
+                        </persName>
+                        <sex> M</sex>
+                        <birth>
+                            <date when="1943">unknown/unknown/1943</date>
+                            <placeName type="unknown"/>      
+                        </birth>
+                    </person>
+					 <!-- Antonino Amore -->
+                    <person xml:id="AA"> 
+                        <persName> 
+                            <forename>Antonino</forename>
+                            <surname>Amore</surname>
+                        </persName>
+                        <sex> M</sex>
+                        <birth>
+                            <date type="unknown"/>
+                            <placeName type="unknown"/>      
+                        </birth>
+                    </person>
+				</listPerson>
+				 <!-- ListPlace -->
+                <listPlace>
+                    <head> Lista dei luoghi di rilievo: </head>
+					<place xml:id="CT">
+                        <placeName ref="http://www.geonames.org/2525068/catania.html http://www.treccani.it/enciclopedia/catania/">Catania</placeName>
+                        <country key="IT">Italy</country>
+                        <note></note>
+                    </place>
+					<place xml:id="Paris">
+						<placeName ref="http://www.geonames.org/2988507 http://www.treccani.it/enciclopedia/parigi/">Paris</placeName>
+						<country key="FR">France</country>
+						<note/>
+					</place>
+					<place xml:id="MI">
+                        <placeName ref="http://www.geonames.org/3173435 http://www.treccani.it/enciclopedia/milano/">Milano</placeName>
+                        <country key="IT">Italy</country>
+                        <note></note>
+                    </place>
+					<place xml:id="Put">
+                         <placeName ref="http://www.geonames.org/2985034 http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italyna)">Puteaux</placeName>
+                         <district type="arrondissement">Nanterre</district>
+                         <settlement type="city">Paris</settlement>
+                         <country key="FR">France</country>
+                         <note source="#Seminara2017" resp="#GS" ana="580">
+                        	  <bibl>
+                        	  	  <citedRange unit="page" from="346" to="346">346</citedRange>
+                        	  </bibl>
+                        	  <p>Puteaux era un sobborgo di <placeName ref="#Paris">Parigi</placeName>, immerso nel verde e situato sulla <foreign xml:lang="fr">rive gauche</foreign> della Senna. Qui Bellini si stabilì dal 26 maggio al 1° novembre 1834 e di nuovo nel 1835 dall'11 maggio al 23 settembre (giorno della morte) nella residenza di Solomon Levy (o Lewis), un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel 1830 a Milano. Levy, che negli anni 1834-35 si trattenne stabilmente a Parigi, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in Boulevard des Capucines, ma possedeva anche la residenza di Puteaux.
+														</p>                        											
+                        	</note>
+                    </place>
+					<place xml:id="TOR">
+                        <placeName ref="https://www.geonames.org/6539616/">Torno</placeName>
+                        <country key="IT">Italy</country>
+                        <note></note>
+                    </place>
+				</listPlace>
+				
+				<!-- ListTerm -->
+                <list type="terminology">                  
+                    <!-- commedia -->
+                    
+					<item>
+						<label>
+                    	    <term subtype="music-term" xml:lang="it" xml:id="commedia" key="">Commedia</term>
+						</label>
+						<gloss xml:lang="it">
+                            Rappresentazione scenica di una vicenda tratta dalla vita quotidiana, non necessariamente a lieto fine.
+						</gloss>
+					</item>
+					 
+                    <item>
+						<label>
+                        	<term subtype="music-term" xml:lang="it" xml:id="tenore" key="">Tenore</term>
+                    	</label>
+                        <gloss xml:lang="it" source="#DellaSeta2010">
+                        	La <term subtype="music-term">voce</term> maschile più acuta. Nei primi decenni della fortuna dell’opera si incontrano spesso tenori protagonisti (Ulisse in Il ritorno di Ulisse in patria, 1639-40), ma di fatto queste parti avevano una tessitura che oggi definiremmo baritonale ed erano interpretate da un <term subtype="music-term">baritenore</term>. Nel secondo Seicento e per buona parte del Settecento al tenore vennero attribuite parti di carattere: figure comiche di donne anziane en <term subtype="music-term">travesti</term>, oppure tiranni e despoti. Anche nell’<term subtype="music-term">opera buffa</term> tardo settecentesca il tenore era di solito un ruolo secondario, quello del giovane innamorato, e nel primo Ottocento conservò tale connotazione, aggiungendovi però una tessitura acutissima e notevole virtuosismo (Lindoro in L’italyna in Algeri, 1813); questa tipologia, detta tenore contraltino, fu presto soppiantata da nuove forme di vocalità tenorile, anche se il carattere leggero rimase in alcuni protagonisti di opere successive, definiti come tenori di grazia. Nel <term subtype="music-term">melodramma</term> serio il tenore divenne un protagonista verso la fine degli anni venti dell’Ottocento, quando il ruolo dell’innamorato passò in primo piano per formare con il <term subtype="music-term">soprano</term> la coppia principale. Fin da subito si delinearono i due tipi fondamentali di carattere che può assumere il tenore moderno: quello eroico, connotato da slancio passionale e grande veemenza vocale (Edgardo in Lucia di Lammermoor, 1835), e quello più languido, caratterizzato da una vocalità più cantabile (Nemorino in L’elisir d’amore, 1832). Nella <term subtype="music-term">critica</term> e nella trattatistica italyna questi due tipi verranno denominati rispettivamente tenore drammatico (o “di forza”) e tenore lirico. La preminenza del tenore rispetto alle altre voci maschili perdurò per tutto l’Ottocento, anche in tradizioni operistiche differenti da quella italyna (le parti di protagonista nel <term subtype="music-term">grand-opéra</term> e lo <term subtype="music-term">Heldenteno</term> wagneriano), e ancor oggi il tenore è la voce maschile che più spesso dà origine a fenomeni di <term subtype="music-term">divismo</term>. È probabilmente collegato a questo “abuso” del mito tenorile il fatto che nel <term subtype="music-term">teatro musicale</term> del Novecento al tenore vengono sempre meno spesso affidate parti di protagonista positivo, ma piuttosto di personaggi nettamente malvagi (Aegisthus in Elektra, 1909) o equivoci e interiormente tormentati (Captain Vere in Billy Budd, 1951).
+                        </gloss>
+                    </item>
+                    
+				</list>
+			
+			
+
+			
+				<!-- ListBibl -->
+				<listBibl>
+					<bibl type="print" xml:id="Amore1894">
+						<author ref="#AA">
+							<forename>Antonino </forename>
+							<surname>Amore</surname>
+						</author>
+						<title level="m">Vincenzo Bellini. Vita. Studi e ricerche</title>
+						<pubPlace>Catania</pubPlace>
+						<publisher>Giannotta</publisher>
+						<date when="1894">1894</date>
+					</bibl>
+
+					<bibl type="print" xml:id="Cambi1943">
+						<author ref="#LC">
+							<forename>Luisa </forename>
+							<surname>Cambi</surname>
+						</author>
+						<title level="m">Bellini. Epistolario</title>
+						<pubPlace>Milano</pubPlace>
+						<publisher>Mondadori</publisher>
+						<date when="1943">1943</date>
+					</bibl>
+					<bibl type="print" xml:id="Neri2005">
+						<author ref="#CN">
+							<forename>Carmelo </forename>
+							<surname>Neri</surname>
+						</author>
+						<title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+						<pubPlace>Catania</pubPlace>
+						<publisher>Agorà</publisher>
+						<date when="2005">2005</date>
+					</bibl>
+					<bibl type="print" xml:id="Seminara2017">
+						<editor ref="#GS">
+							<forename>Graziella </forename>
+							<surname>Seminara</surname>
+						</editor>
+						<title level="m">Vincenzo Bellini. Carteggi</title>
+						<title level="s">Historiae Musicae Cultores</title>
+						<biblScope unit="volume">CXXXI</biblScope>
+						<biblScope unit="page">pp. vi+622</biblScope>
+						<pubPlace>Firenze</pubPlace>
+						<publisher>Leo S. Olschki Editore</publisher>
+						<date when="2017">2017</date>
+					</bibl>
+					<bibl type="print" xml:id="DellaSeta2010">
+						<editor xml:id="FDS">
+							<forename>Fabrizio</forename>
+							<surname>Della Seta</surname>
+						</editor>
+						<title level="m">Le parole del teatro musicale</title>
+						<pubPlace>Roma</pubPlace>
+						<publisher>Carocci</publisher>
+						<date when="2010">2010</date>
+					</bibl>
+				</listBibl>
+			</div>
+		</back>
+		</text>
+	
+
+		<text type="letter" xml:id="LL1.23.I" subtype="manuscript" n="LL1.23.I"> <!--Text riferito alla prima lettera-->
+			<pb n="1" facs="#LL1.23.I-II_fol_f"/><!--segno per indicare la prima pagina-->
+			<body xml:lang="it">
+				<div type="opener">
+					<opener n="o_1"> <!--elemento opener usato per codificare aperture di una lettera-->
+						<dateline>
+							<s type="sentence" n="s_1_01">   
+								<lb xml:id="LL1.23.I_line_fol_01" n="1_1" facs="#LL1.23.I_line_folio_01"/><!--rimando a zona codificata sopra-->
+	   							<hi rend="margin-left : 15%;"><!--graficamente in alto a destra, attr rend usato in trasformata-->
+									<placeName ref="#Paris">Parigi </placeName>
+	   								<date when="05-10">10:Maggio</date>	
+								</hi>
+							</s>
+	   					</dateline>
+						<salute>
+							<s type="sentence" n="s_1_02"><!--prima frase del testo-->
+								<lb xml:id="LL1.23.I_line_fol_02" n="1_2" facs="#LL1.23.I_line_folio_02"/>	
+								Mio caro <persName ref="#GD"><forename><supplied resp="#GS">(Giuseppe)</supplied></forename><surname> Denza</surname> </persName> <!--Nome fornito nella trascrizione operata da Seminara, non presente nel testo originale-->
+							</s>
+						</salute>
+					</opener>
+				</div>
+				<div type="body" n="23_I"><!--body della lettera-->
+					<ab n="ab_1">
+						<s type="sentence" n="s_1_03">
+							<lb xml:id="LL1.23.I_line_fol_03" n="1_3" facs="#LL1.23.I_line_folio_03"/>	
+							Se <persName ref="#AC"><forename><supplied resp="#GS">(Alberico)</supplied></forename><surname> Curioni</surname></persName> vi domanderà <ptr target="#LL1_23_note1"/>
+						</s>
+					</ab>
+				</div>
+				
+				<div type="closer">
+					<gap reason="missing"/> <!--chiusura mancante-->
+				</div>
+			</body>
+
+		</text>
+
+	    <text type="letter" xml:id="LL1.23.II" subtype="manuscript" n="LL1.23.II">
+			<body xml:lang="it">
+				<div type="opener">
+					<opener n="o_2">
+						<s type="sentence" n="s_2_01">
+							<lb xml:id="LL1.23.II_line_fol_01" n="2_1" facs="#LL1.23.II_line_folio_01"/>	
+							<ptr target="#LL1_23_note2"/><rs type="person">Signore</rs>
+						</s>
+					</opener>
+				</div>
+				<div type="body" n="23_II">
+					<ab n="ab_2">
+						<s type="sentence" n="s_2_02">
+							<lb xml:id="LL1.23.II_line_fol_02" n="2_2" facs="#LL1.23.II_line_folio_02"/>	
+							Vengo di ricevere la 
+							<choice xml:id="choice_1">
+								<abbr> vra</abbr> <expan>v<ex resp="#GS">ost</ex>ra</expan>
+							</choice> 
+							<term ref="#commedia"> commedia</term>
+							<lb xml:id="LL1.23.II_line_fol_03" n="2_3" facs="#LL1.23.II_line_folio_03"/>	
+							<subst>
+								<del rend="overstrike">che <gap reason="cancelled" extent="few words"/>più lieta</del>         
+								<add>
+									<pc type="comma">, </pc>
+									che trovo graziosissima
+								</add>
+							</subst>
+							
+							<lb xml:id="LL1.23.II_line_fol_04" n="2_4" facs="#LL1.23.II_line_folio_04"/>
+							e molto mi ha divertito <choice xml:id="choice_3"><sic>- </sic> 
+								<corr><pc type="dot">. </pc></corr></choice>
+						</s>
+						<s type="sentence" n="s_2_03"> 
+							<del rend="overstrike">N</del> 
+							<subst>	<del rend="overtype">n</del><add>N</add></subst>on 
+							<choice xml:id="choice_2">
+								<sic>sò</sic> 
+								<corr>so</corr>
+							</choice>
+						
+							<lb xml:id="LL1.23.II_line_fol_05" n="2_5" facs="#LL1.23.II_line_folio_05"/>
+							con che termini ringraziar<subst><del rend="overtype"><c>t</c></del><add><c>v</c></add></subst>i<ptr target="#LL1_23.II_note3"/> di tanto 
+								
+			
+							<lb xml:id="LL1.23.II_line_fol_06" n="2_6" facs="#LL1.23.II_line_folio_06"/>
+							<choice xml:id="choice_4">
+								<abbr>vro </abbr>
+								<expan>
+									v<ex resp="#GS">ost</ex>ro 
+								</expan>
+							</choice>
+							<add rend="supralinear">
+								<surplus><c>e</c></surplus>
+							</add>
+							<choice xml:id="choice_5"><orig> incommodo</orig><reg> incomodo</reg></choice> e bontà nell<pc type="apostrophe">’</pc>aver
+							<lb xml:id="LL1.23.II_line_fol_07" n="2_7" facs="#LL1.23.II_line_folio_07"/>
+							pensato d’inviarmela <surplus><c>e</c></surplus> 
+							<del rend="overstrike" >
+								<add rend="supralinear">con tanta eleganza</add>
+							</del> 
+							<choice xml:id="choice_6">
+								<abbr>sì</abbr>
+								<expan>
+									<ex> co</ex>sì
+								</expan>
+							</choice> 
+							elegantemente
+							<lb xml:id="LL1.23.II_line_fol_08" n="2_8" facs="#LL1.23.II_line_folio_08"/>
+							<del rend="overstrike">legata</del>
+						</s>
+						<s type="sentence" n="s_2_04">
+							<lb xml:id="LL1.23.II_line_fol_09" n="2_9" facs="#LL1.23.II_line_folio_09"/>
+							Io non posso per ora che esprimer<subst><del rend="overtype"><c>t</c></del><add><c>v</c></add></subst>i<ptr target="#LL1_23.II_note4"/> la
+							
+							<lb xml:id="LL1.23.II_line_fol_10" n="2_10" facs="#LL1.23.II_line_folio_10"/>
+							mia gratitudine, aspettando qualche suo
+			
+							<lb xml:id="LL1.23.II_line_fol_11" n="2_11" facs="#LL1.23.II_line_folio_11"/>
+							comando
+						</s>
+						
+					</ab>
+				</div>
+				<div type="closer">
+					<gap reason="missing"/>
+				</div>
+				
+			</body>
+		 	
+			</text>
+			</group>
+		
+	</text>
+
+</TEI>	
+

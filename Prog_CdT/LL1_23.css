@@ -1,0 +1,166 @@
+* {box-sizing:border-box}
+/* Hide the images by default */
+body{
+  background-color: #e0c9a6;
+}
+#Info-gen{
+  display: table;
+}
+#main_Tit{
+  text-align: center;
+    padding: 1%;
+    font-size: x-large;
+    margin-left: 15%;
+    border: 2px solid;
+    margin-right: 15%;
+    background-color: #cc9a3e52;
+
+}
+.col_L{
+  float: left;
+  width: 48%;
+  display: table-row;
+  background-color: #cc9a3e52;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+
+.col_R{
+  float: right;
+  width: 48%;
+  display: table-row;
+  background-color: #cc9a3e52;
+  padding: 10px;
+  border-radius: 15px;
+}
+.titolo-sezione{
+  text-align: center;
+}
+.contenuto-sezioni{
+  background-color: #cc9a3e52;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 1%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hide {
+    display: none;
+  }
+  
+#minute{
+  float: right;
+  width:40%;
+  background-color: #cc9a3e52;
+  padding: 10px;
+  padding-top: 20px;
+  line-height: 85%;
+  border-radius: 15px;
+  font-size: 16px;
+}
+#minute h1{
+  line-height: initial;
+  font-size: 1.5em;
+  text-align: center;
+}
+.lett {
+  margin: 2%;
+  margin-top: 8%;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot_targ {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    text-decoration: underline;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  #scan-e-minute {
+    display: inline-block;
+  }
+  
+  #immagini{
+    float: left;
+    width: 55%;
+    display: table;
+    text-align: center;
+    background-color: #cc9a3e52;
+  padding: 10px;
+  padding-top: 20px;
+
+  border-radius: 15px;
+  } 
+#riq_img img{
+    padding:2%;
+}
+
+
+.hide_diplo {
+  display: none;
+}
+.hide_interp {
+  display: none;
+}
+.line{
+
+    color: grey;
+    font-size: .8em;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+#Vers{
+  text-align: center;
+  line-height: 100%;
+  margin: 2%;
+}
+#Vers h3{
+  display: inline-block;
+}
+#Vers button{
+  margin: 2%;
+}
+.target{
+  text-decoration: underline;
+}
+/* https://www.w3docs.com/snippets/css/how-to-create-a-blinking-effect-with-css3-animations.html*/
+:target {
+  color:yellow;
+  animation: blink-animation 1s steps(5, start) 5;
+  -webkit-animation: blink-animation 1s steps(5, start) 5;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
